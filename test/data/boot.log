@@ -1,0 +1,50 @@
+G		Welcome to CentOS
+Starting udev: G                                           [  OK  ]
+Setting hostname ops-salt4.c1.cs1.sazze.com:               [  OK  ]
+Setting up Logical Volume Management:   No volume groups found
+                                                           [  OK  ]
+Checking filesystems
+/dev/vda3: clean, 65740/1954064 files, 622763/7812864 blocks
+/dev/vda1: clean, 39/51200 files, 36125/204800 blocks
+                                                           [  OK  ]
+Remounting root filesystem in read-write mode:             [  OK  ]
+Mounting local filesystems:                                [  OK  ]
+Enabling local filesystem quotas:                          [  OK  ]
+Enabling /etc/fstab swaps:                                 [  OK  ]
+Entering non-interactive startup
+Calling the system activity data collector (sadc)...
+iptables: Applying firewall rules:                         [  OK  ]
+Bringing up loopback interface:                            [  OK  ]
+Bringing up interface eth0:  Determining if ip address 172.16.96.194 is already in use for device eth0...
+                                                           [  OK  ]
+Bringing up interface eth1:  Determining if ip address 10.0.17.194 is already in use for device eth1...
+                                                           [  OK  ]
+Bringing up interface eth2:  Determining if ip address 10.1.17.194 is already in use for device eth2...
+                                                           [  OK  ]
+Starting nslcd:                                            [  OK  ]
+Starting system logger:                                    [  OK  ]
+Starting irqbalance:                                       [  OK  ]
+Starting rpcbind:                                          [  OK  ]
+Starting NFS statd:                                        [  OK  ]
+Starting system message bus:                               [  OK  ]
+Mounting filesystems:                                      [  OK  ]
+Starting acpi daemon:                                      [  OK  ]
+Starting HAL daemon:                                       [  OK  ]
+Retrigger failed udev events                               [  OK  ]
+Starting nscd:                                             [  OK  ]
+Starting snmpd:                                            [  OK  ]
+Starting sshd:                                             [  OK  ]
+ntpdate: Synchronizing with time server:                   [  OK  ]
+Starting ntpd:                                             [  OK  ]
+Starting GANGLIA gmond:                                    [  OK  ]
+Starting newrelic-sysmond:                                 [  OK  ]
+Starting crond:                                            [  OK  ]
+Starting atd:                                              [  OK  ]
+Starting supervisord:                                      [  OK  ]
+Starting chef-client:                                      [  OK  ]
+Starting salt-master daemon:                               [  OK  ]
+Starting salt-minion daemon:                               [  OK  ]
+Starting salt-syndic daemon: Usage: salt-syndic
+
+salt-syndic: error: The syndic_master needs to be configured in the salt master config, EXITING!
+                                                           [FAILED]
