@@ -1,6 +1,6 @@
 {
   "name": "@sazze/liner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stream that reads chunk data and outputs it line by line",
   "main": "./liner.js",
   "homepage": "https://github.com/sazze/node-liner",
