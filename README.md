@@ -20,7 +20,7 @@ liner.on('end', function () {
 
 Install
 ============================
-` npm install sz-liner `
+` npm install @sazze/liner `
 
 Tests
 ============================
