@@ -1,21 +1,18 @@
 {
-  "name": "sz-liner",
+  "name": "@sazze/liner",
   "version": "1.0.0",
   "description": "Stream that reads chunk data and outputs it line by line",
   "main": "./liner.js",
-  "homepage": "https://gitlab.sazze.com/nodejs/sz-liner",
+  "homepage": "https://github.com/sazze/node-liner",
   "scripts": {
     "test": "make test"
   },
   "engines": {
     "node": ">=0.10.x"
   },
-  "publishConfig": {
-    "registry": "http://npm.sazze.com"
-  },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.sazze.com/nodejs/sz-liner.git"
+    "url": "https://github.com/sazze/node-liner.git"
   },
   "dependencies": {
   },
@@ -25,16 +22,18 @@
   },
   "keywords": [
     "stream",
-    "line"
+    "line",
+    "liner",
+    "sazze"
   ],
   "bugs": {
-    "url": "https://gitlab.sazze.com/nodejs/sz-liner/issues"
+    "url": "https://github.com/sazze/node-liner/issues"
   },
   "author": {
     "name": "Craig Thayer",
     "email": "cthayer@sazze.com"
   },
-  "license": "Copyright 2014 by Sazze, Inc.  All rights reserved.",
+  "license": "ISC",
   "contributors": [
     {
       "name": "Craig Thayer",

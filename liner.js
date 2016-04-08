@@ -1,6 +1,5 @@
 /**
  * @author Craig Thayer <cthayer@sazze.com>
- * @copyright 2014 Sazze, Inc.
  */
 
 var stream = require('stream');
