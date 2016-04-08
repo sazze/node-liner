@@ -1,7 +1,7 @@
 Usage
 ============================
 ```javascript
-var Liner = require('sz-liner');
+var Liner = require('@sazze/liner');
 var fs = require('fs');
 
 var source = fs.createReadStream('/tmp/someFile');
